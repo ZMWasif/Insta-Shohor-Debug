@@ -92,40 +92,43 @@
     </main>
     <section>
       <div>
-        <h3>How does JS work?</h3>
-        <p>
-          JS is a single threaded and single concurrent programming language
-          which means it can handle one task at a time or, in other words, a
-          piece of code at a time. JavaScript works with HTML and CSS to build
-          web apps or web pages. JavaScript is supported by most modern web
-          browsers like Google Chrome, Firefox, Safari, Microsoft Edge, Opera,
-          etc. The web browser loads a web page, parses the HTML, and creates
-          what is known as a Document Object Model (DOM) from the contents. The
-          DOM presents a live view of the web page to your JavaScript code. The
-          browser will then grab everything linked to the HTML, like images and
-          CSS files. The CSS information comes from the CSS parser.The HTML and
-          CSS are put together by the DOM to create the web page first and then,
-          the browsers' JavaScript engine loads JavaScript files and inline code
-          but does not run the code immediately. It waits for the HTML and CSS
-          to finish loading. Once this is done, the JavaScript is executed in
-          the order the code is written which results in the DOM being updated
-          by JavaScript code and rendered by the browser.
-        </p>
-      </div>
-      <div>
-        <h3>Differences between Local Storage and Session Storage</h3>
-        <p>
-          Local Storage and Session Storage are relatively new APIs (meaning,
-          not all legacy browsers will support them) and are near identical
-          (both in APIs and capabilities) with the sole exception of
-          persistence. Seession Storage (as the name suggests) is only available
-          for the duration of the browser session (and is deleted when the tab
-          or window is closed) - it does, however, survive page reloads. If the
-          data you are storing needs to be available on an ongoing basis then
-          local storage is preferable to sessionStorage - although you should
-          note both can be cleared by the user so you should not rely on the
-          continuing existence of data in either case.
-        </p>
+        <div>
+          <h3>How does JS work?</h3>
+          <p>
+            JS is a single threaded and single concurrent programming language
+            which means it can handle one task at a time or, in other words, a
+            piece of code at a time. JavaScript works with HTML and CSS to build
+            web apps or web pages. JavaScript is supported by most modern web
+            browsers like Google Chrome, Firefox, Safari, Microsoft Edge, Opera,
+            etc. The web browser loads a web page, parses the HTML, and creates
+            what is known as a Document Object Model (DOM) from the contents.
+            The DOM presents a live view of the web page to your JavaScript
+            code. The browser will then grab everything linked to the HTML, like
+            images and CSS files. The CSS information comes from the CSS
+            parser.The HTML and CSS are put together by the DOM to create the
+            web page first and then, the browsers' JavaScript engine loads
+            JavaScript files and inline code but does not run the code
+            immediately. It waits for the HTML and CSS to finish loading. Once
+            this is done, the JavaScript is executed in the order the code is
+            written which results in the DOM being updated by JavaScript code
+            and rendered by the browser.
+          </p>
+        </div>
+        <div>
+          <h3>Differences between Local Storage and Session Storage</h3>
+          <p>
+            Local Storage and Session Storage are relatively new APIs (meaning,
+            not all legacy browsers will support them) and are near identical
+            (both in APIs and capabilities) with the sole exception of
+            persistence. Seession Storage (as the name suggests) is only
+            available for the duration of the browser session (and is deleted
+            when the tab or window is closed) - it does, however, survive page
+            reloads. If the data you are storing needs to be available on an
+            ongoing basis then local storage is preferable to session storage -
+            although we should note both can be cleared by the user so we should
+            not rely on the continuing existence of data in either case.
+          </p>
+        </div>
       </div>
     </section>
 
